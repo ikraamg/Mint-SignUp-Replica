@@ -1,3 +1,13 @@
+/* header{
+    width: 100%;
+    height: 80%;
+    background-color: green;
+} */
+
+.navbar{
+    background-color: Yellow;
+}
+
 .signup{
    float: right;
    background-color: blue;
@@ -13,4 +23,19 @@
 
 .button-content{
     float: right;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: red;
+    height: 80%;
+
+}
+
+.form{
+   display: flex;
+   align-self: center;
+   font-size: 30px;
 }
