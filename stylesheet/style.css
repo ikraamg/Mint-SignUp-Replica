@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   background-color: #eceef1;
-
   grid-template-areas:
     'nav nav nav nav nav nav nav'
     'bl1 bl1 bl1 hdr bl2 bl2 bl2'
@@ -64,6 +63,7 @@
   height: 80vh;
   grid-area: bl1;
 }
+
 .blank2 {
   height: 80vh;
   grid-area: bl2;
@@ -81,7 +81,6 @@
 }
 
 .navcontent {
-  font-size: 10px;
   float: right;
   font-size: 15px;
 }
@@ -107,7 +106,6 @@ li {
   align-items: center;
   margin-left: 10px;
   justify-content: center;
-
   text-align: center;
 }
 
@@ -151,7 +149,6 @@ li img {
 
 #captchaform {
   font-size: 10px;
-
   padding-bottom: 0px;
 }
 
