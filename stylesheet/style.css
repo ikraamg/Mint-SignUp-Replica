@@ -6,9 +6,29 @@
 
 .navbar{
     background-color: Yellow;
+    height: 200px;
+    width: 300px;
 }
 
-.signup{
+.header{
+    background-color: Red;
+    height: 200px;
+    width: 300px;
+}
+
+.form{
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+}
+
+.footer{
+    background-color: orange;
+    height: 200px;
+    width: 300px;
+}
+
+/* .signup{
    float: right;
    background-color: blue;
    color: white;
@@ -17,11 +37,9 @@
    margin-top: 15px;
    padding: 7px;
    margin-left: 20px;
-
-
 }
 
-.button-content{
+ .button-content{
     float: right;
 }
 
@@ -38,4 +56,4 @@
    display: flex;
    align-self: center;
    font-size: 30px;
-}
+} */
