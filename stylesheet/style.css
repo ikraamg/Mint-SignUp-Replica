@@ -106,23 +106,52 @@ li img {
 
 #submitbutton {
   background-color: rgba(41, 117, 240, 0.787);
+  width: 90%;
+  height: 40px;
   margin-top: 10px;
+  border-radius: 5px;
+}
+
+.label {
+  margin-top: 2vh;
+  display: flex;
+  justify-items: left;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .input {
-  margin-top: 25px;
-  padding-top: 25px;
+display: flex;
+justify-items: left;
+width: 90%;
+height: 30px;
+border-radius: 5px;
+margin-left: 5%;
+box-shadow: 0 0;
 }
 
 #formfooter {
   font-style: italic;
   font-size: 10px;
-  padding-top: 25px;
+  padding-top: 30px;
+  margin-bottom: 60px;
+  color: grey;
+
 }
 
 #captchaform {
   font-size: 8px;
-  background-color: rgb(241, 220, 220);
+
+  padding-bottom: 0px;
+}
+
+.capcha{
+    background-color: rgb(221, 215, 215);
+    text-align: center;
+    padding-top: 5px;
+    height: 10vh;
+    color: grey;
+
 }
 
 a {
