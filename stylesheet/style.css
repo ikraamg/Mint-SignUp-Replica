@@ -70,11 +70,45 @@
 .navcontent {
   font-size: 10px;
   float: right;
+  font-size: 15px;
 }
 
+.logos{
+    width: 40px;
+    height: auto;
+
+}
+
+.logo-header{
+    width: 130px;
+    height: 30px;
+}
+
+#logo-list{
+    list-style-type: none;
+    padding-left: 20%;
 
 
-/* 
+
+}
+
+li{
+    float: left;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+li img{
+    padding-right: 5px;
+    align-items: center;
+
+}
+
+/*
  .button-content{
     float: right;
 }
