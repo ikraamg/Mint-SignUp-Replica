@@ -2,7 +2,7 @@
 
 
 > Re-creating the Mint sign up page.
-> ![screenshot]()
+> ![screenshot](2.png)
 
 ## Built With
 
@@ -44,7 +44,7 @@ Fork this project to your local machine
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/imahnama/Youtube-replica/issues](issues/).
+Feel free to check the [https://github.com/ikraamg/Mint-SignUp-Replica/issues](issues/).
 
 ## Show your support
 
@@ -53,6 +53,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Freecodecamp
+- W3 Schools
 - The Different Ways to Start Project using Floats, Flexbox, and Grid CSS by Ruben Paz Chuspe (https://hackernoon.com/the-different-ways-to-start-project-using-floats-flexbox-and-grid-css-4x82371n)
 
 ## 📝 License
