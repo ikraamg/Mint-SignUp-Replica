@@ -1,13 +1,12 @@
 # Mint-SignUp-Replica
 
-
 > Re-creating the Mint sign up page.
 > ![screenshot](2.png)
 
 ## Built With
 
 - HTML &,
-- CSS,
+- CSS
 
 ## Live Demo
 
@@ -24,7 +23,6 @@ A browser of your choice preferrably Chrome.
 ### Setup
 
 Fork this project to your local machine
-
 
 ## Authors
 
