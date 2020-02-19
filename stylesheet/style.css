@@ -3,32 +3,60 @@
     height: 80%;
     background-color: green;
 } */
+#container {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  padding: 0;
+  margin: 0;
 
-.navbar{
-    background-color: Yellow;
-    height: 200px;
-    width: 300px;
+  grid-template-areas:
+    'nav nav nav nav nav'
+    'bl1 bl1 hdr bl2 bl2'
+    'bl1 bl1 frm bl2 bl2'
+    'ftr ftr ftr ftr ftr';
 }
 
-.header{
-    background-color: Red;
-    height: 200px;
-    width: 300px;
+.navbar {
+  background-color: Yellow;
+  height: 10vh;
+  grid-area: nav;
+  justify-self: end;
+  width: 30%;
+  display: inline-block;
 }
 
-.form{
-    background-color: blue;
-    height: 200px;
-    width: 300px;
+.header {
+  background-color: Red;
+  height: 20vh;
+  grid-area: hdr;
 }
 
-.footer{
-    background-color: orange;
-    height: 200px;
-    width: 300px;
+.form {
+  background-color: blue;
+  height: 60vh;
+  grid-area: frm;
 }
 
-/* .signup{
+.footer {
+  background-color: orange;
+  height: 10vh;
+  grid-area: ftr;
+}
+
+.blank1 {
+  background-color: rgb(38, 255, 0);
+  height: 80vh;
+  grid-area: bl1;
+}
+.blank2 {
+  background-color: rgb(0, 162, 255);
+  height: 80vh;
+  grid-area: bl2;
+}
+
+.signup{
    float: right;
    background-color: blue;
    color: white;
@@ -39,6 +67,14 @@
    margin-left: 20px;
 }
 
+.navcontent {
+  font-size: 10px;
+  float: right;
+}
+
+
+
+/* 
  .button-content{
     float: right;
 }
