@@ -10,6 +10,7 @@
   display: grid;
   padding: 0;
   margin: 0;
+  background-color: rgb(221, 215, 215);
 
   grid-template-areas:
     'nav nav nav nav nav'
@@ -29,13 +30,13 @@
 
 .header {
   background-color: Red;
-  height: 20vh;
+  height: 15vh;
   grid-area: hdr;
 }
 
 .form {
-  background-color: blue;
-  height: 60vh;
+  background-color: white;
+  height: 65vh;
   grid-area: frm;
 }
 
@@ -56,15 +57,15 @@
   grid-area: bl2;
 }
 
-.signup{
-   float: right;
-   background-color: blue;
-   color: white;
-   font-size: 20px;
-   border-radius: 10px;
-   margin-top: 15px;
-   padding: 7px;
-   margin-left: 20px;
+.signup {
+  float: right;
+  background-color: rgba(41, 117, 240, 0.787);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 7px;
+  margin-left: 20px;
 }
 
 .navcontent {
@@ -73,41 +74,60 @@
   font-size: 15px;
 }
 
-.logos{
-    width: 40px;
-    height: auto;
-
+.logos {
+  width: 15px;
+  height: auto;
 }
 
-.logo-header{
-    width: 130px;
-    height: 30px;
+.logo-header {
+  padding-top: 2vh;
+  width: 100px;
+  height: 30px;
 }
 
-#logo-list{
-    list-style-type: none;
-    padding-left: 20%;
-
-
-
+#logo-list {
+  list-style-type: none;
+  padding-left: 20%;
 }
 
-li{
-    float: left;
-    align-items: center;
-    margin-left: 10px;
-    justify-content: center;
+li {
+  float: left;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: center;
 
-    text-align: center;
-
+  text-align: center;
 }
 
-li img{
-    padding-right: 5px;
-    align-items: center;
-
+li img {
+  padding-right: 5px;
+  align-items: center;
 }
 
+#submitbutton {
+  background-color: rgba(41, 117, 240, 0.787);
+  margin-top: 10px;
+}
+
+.input {
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+#formfooter {
+  font-style: italic;
+  font-size: 10px;
+  padding-top: 25px;
+}
+
+#captchaform {
+  font-size: 8px;
+  background-color: rgb(241, 220, 220);
+}
+
+a {
+  text-decoration: none;
+}
 /*
  .button-content{
     float: right;

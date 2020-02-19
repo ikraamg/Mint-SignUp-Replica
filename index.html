@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="stylesheet/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body id="container">
     <nav class="navbar">
@@ -15,39 +19,94 @@
     </nav>
 
     <header class="header">
-        <img class="logo-header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/640px-Intuit_Logo.svg.png " alt="logo1"> 
-        <ul id="logo-list">
-            <li><img class="logos" src="https://www.google.com/favicon.ico " alt="logo1">google</li>
-            <li><img class="logos" src="https://www.intuit.com/etc/designs/harmony/images/favicon/icom/favicon.ico" alt="logo2">mint</li>
-            <li><img class="logos" src="https://trello.com/favicon.ico" alt="logo3">Trello</li>
-        </ul>
+      <img
+        class="logo-header"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/640px-Intuit_Logo.svg.png "
+        alt="logo1"
+      />
+      <ul id="logo-list">
+        <li>
+          <img
+            class="logos"
+            src="https://www.google.com/favicon.ico "
+            alt="logo1"
+          />google
+        </li>
+        <li>
+          <img
+            class="logos"
+            src="https://www.intuit.com/etc/designs/harmony/images/favicon/icom/favicon.ico"
+            alt="logo2"
+          />mint
+        </li>
+        <li>
+          <img
+            class="logos"
+            src="https://trello.com/favicon.ico"
+            alt="logo3"
+          />Trello
+        </li>
+      </ul>
+    </header>
 
+    <form class="form" action="index.html" method="post">
+      <label id="email-label" class="label" for="email">Email address</label>
 
+      <br />
 
-     </header>
+      <input type="text" name="name" class="input" id="name" required /><br />
 
-    <form class="form" action="index.html" method="post">Form, I am</form>
+      <label class="label" id="phone-label" for="phone"
+        >Phone (recommended)</label
+      >
+
+      <br />
+
+      <input type="text" class="input" name="email" id="email" /><br />
+
+      <label class="label" id="password-label" for="password">Password</label>
+
+      <br />
+
+      <input
+        type="password"
+        class="input"
+        name="password"
+        id="password"
+        required
+      />
+      <br />
+      <button id="submitbutton" type="submit">
+        <i class="fa fa-lock"></i>
+        Create Account
+      </button>
+
+      <p id="formfooter">
+        By clicking Create account, you agree to our <br /><a
+          href="https://www.mint.com/terms"
+        >
+          Terms
+        </a>
+        and have read and acknowledge
+        <a href="https://www.mint.com/terms">
+          Privacy <br />
+          Statement </a
+        >.
+      </p>
+
+      <div>
+        <p id="captchaform">
+          Invisible reCAPTCHA by Google
+          <a href="https://www.mint.com/terms"> Privacy Policy </a> and
+          <a href="https://www.mint.com/terms"> Terms of use</a>.
+        </p>
+      </div>
+    </form>
     <aside class="blank1">Blank me</aside>
     <aside class="blank2">Blank me too</aside>
-    <footer class="footer">Feet I am</footer>
-
-    <!-- <nav class="navbar">
-
-    </nav>
-
-
-<form class="form" action="index.html" method="post">
-    <label id = "name-label" class="label" for = "name">Name</label><br>
-    <input type = "text"   name = "name"  class="input" id = "name" placeholder="Enter your name!" required/><br>
-
-    <label class="label" id = "email-label" for = "email">Email</label><br>
-       <input type = "email"  class="input" name = "email" id = "email" placeholder="Enter your email!" required/><br>
-
-       <label class="label" id = "password-label" for = "password">Password</label><br>
-          <input type = "email"  class="input" name = "password" id = "password" placeholder="Enter your password!" required/>
-
-</form>
-</div>
-<footer> By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</footer> -->
+    <footer class="footer">
+      By clicking Create account, you agree to our and have read and acknowledge
+      our Privacy Statement.
+    </footer>
   </body>
 </html>
