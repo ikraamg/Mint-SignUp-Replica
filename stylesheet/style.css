@@ -15,28 +15,23 @@
     'bl1 bl1 bfm bl2 bl2'
     'ftr ftr ftr ftr ftr';
 
-    
   grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
 }
 
 .navbar {
-  /* height: 5vh; */
   grid-area: nav;
   justify-self: end;
-  /* width: 30%; */
   display: inline-block;
 }
 
 .header {
   background-color: #eceef1;
-  /* height: 15vh; */
   grid-area: hdr;
 }
 
 .form {
   background-color: white;
-  /* height: 65vh; */
   grid-area: frm;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
@@ -50,15 +45,13 @@
   padding-top: 3px;
   color: grey;
   grid-area: bfm;
-  /* height: 5vh; */
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
 }
 
 .footer {
-  background-color: #eceef1;
-  /* height: 15vh; */
+  background-color: #eceef1
   grid-area: ftr;
   color: rgb(85, 84, 84);
   margin-top: 15px;
@@ -67,12 +60,10 @@
 }
 
 .blank1 {
-  /* height: 80vh; */
   grid-area: bl1;
 }
 
 .blank2 {
-  /* height: 80vh; */
   grid-area: bl2;
 }
 
@@ -98,7 +89,6 @@
 }
 
 .logo-header {
-  /* padding-top: 2vh; */
   width: 100px;
   height: 30px;
 }
