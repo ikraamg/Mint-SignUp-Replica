@@ -51,7 +51,7 @@
 }
 
 .footer {
-  background-color: #eceef1
+  background-color: #eceef1;
   grid-area: ftr;
   color: rgb(85, 84, 84);
   margin-top: 15px;
