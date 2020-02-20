@@ -1,17 +1,16 @@
 # Mint-SignUp-Replica
 
-
 > Re-creating the Mint sign up page.
-> ![screenshot]()
+> ![screenshot](2.png)
 
 ## Built With
 
 - HTML &,
-- CSS,
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/imahnama/Youtube-replica/Ikraam-Rahma-feature/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ikraamg/Mint-SignUp-Replica/5071fc54b8893b5112506c9727f1844124e0d25d/index.html)
 
 ## Getting Started
 
@@ -24,7 +23,6 @@ A browser of your choice preferrably Chrome.
 ### Setup
 
 Fork this project to your local machine
-
 
 ## Authors
 
@@ -44,7 +42,7 @@ Fork this project to your local machine
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/imahnama/Youtube-replica/issues](issues/).
+Feel free to check the [https://github.com/ikraamg/Mint-SignUp-Replica/issues](issues/).
 
 ## Show your support
 
@@ -53,6 +51,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Freecodecamp
+- W3 Schools
 - The Different Ways to Start Project using Floats, Flexbox, and Grid CSS by Ruben Paz Chuspe (https://hackernoon.com/the-different-ways-to-start-project-using-floats-flexbox-and-grid-css-4x82371n)
 
 ## 📝 License
