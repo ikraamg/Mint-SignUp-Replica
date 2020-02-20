@@ -15,23 +15,26 @@
     'bl1 bl1 bfm bl2 bl2'
     'ftr ftr ftr ftr ftr';
 
-  grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  /* grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr); */
 }
 
 .navbar {
   grid-area: nav;
+  height: 10vh;
   justify-self: end;
   display: inline-block;
 }
 
 .header {
+  height: 15vh;
   background-color: #eceef1;
   grid-area: hdr;
 }
 
 .form {
   background-color: white;
+  height: 100%;
   grid-area: frm;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
@@ -51,7 +54,8 @@
 }
 
 .footer {
-  background-color: #eceef1
+  background-color: #eceef1;
+  height: 15vh;
   grid-area: ftr;
   color: rgb(85, 84, 84);
   margin-top: 15px;
@@ -61,10 +65,12 @@
 
 .blank1 {
   grid-area: bl1;
+  height: 80vh;
 }
 
 .blank2 {
   grid-area: bl2;
+  height: 80vh;
 }
 
 .signup {
@@ -148,6 +154,7 @@ li img {
 }
 
 #captchaform {
+  height: 5vh;
   font-size: 10px;
   padding-bottom: 0;
 }
