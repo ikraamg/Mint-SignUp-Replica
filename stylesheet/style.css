@@ -12,11 +12,12 @@
     'bl1 bl1 hdr bl2 bl2'
     'bl1 bl1 frm bl2 bl2'
     'bl1 bl1 frm bl2 bl2'
+    'bl1 bl1 frm bl2 bl2'
     'bl1 bl1 bfm bl2 bl2'
     'ftr ftr ftr ftr ftr';
 
   grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr 2fr 2fr 2fr 1fr 1fr;
 }
 
 .navbar {
