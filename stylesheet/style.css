@@ -1,10 +1,12 @@
 #container {
-  overflow-y: visible;
-  font-size: 62.5%;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-y: scroll;
+  font-size: 70%;
   color: #4c4c4c;
   text-align: center;
   width: 100%;
-  max-height: 100vh;
+  max-height: 150vh;
   display: grid;
   padding: 0;
   margin: 0;
@@ -18,50 +20,60 @@
     'bl1 bl1 bfm bl2 bl2'
     'ftr ftr ftr ftr ftr';
 
-  grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr 2fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1.77777fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2.7fr 2.7fr 2.7fr 1fr 1fr;
 }
 .navbar {
+  display: inline-flex;
+  width: 100%;
+  /* padding-top: 1%; */
   grid-area: nav;
-  justify-self: end;
-  display: inline-block;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
 }
 
 .header {
   background-color: #eceef1;
   grid-area: hdr;
+  width: 100%;
+  max-height: 100%;
 }
 
 .form {
+  /* overflow-y: auto; */
   background-color: white;
   max-height: 100%;
   grid-area: frm;
-  border-top: 1px solid grey;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  border-radius: 5px;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  justify-content: space-between;
+  font-size: 130%;
 }
 
 .capcha {
   max-height: 100%;
-  background-color: #cdd1d8;
+  background-color: #eceef1;
   text-align: center;
-  padding-top: 3px;
-  color: grey;
+  padding-top: 1%;
+  color: rgb(182, 180, 180);
   grid-area: bfm;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 1px;
 }
 
 .footer {
-  max-height: 100%;
   background-color: #eceef1;
   grid-area: ftr;
   color: rgb(85, 84, 84);
-  margin-top: 15px;
-  font-size: 15px;
-  margin-bottom: 15px;
+  margin-top: 1%;
+  font-size: 120%;
+  margin-bottom: 1%;
 }
 
 .blank1 {
@@ -73,61 +85,68 @@
 }
 
 .signup {
-  float: right;
   background-color: rgba(41, 117, 240, 0.787);
   color: white;
-  font-size: 20px;
-  border-radius: 10px;
-  margin-top: 15px;
-  padding: 7px;
-  margin-left: 20px;
+  font-size: 120%;
+  border-radius: 5px;
+  margin-right: 1%;
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 1%;
 }
 
 .navcontent {
-  float: right;
-  font-size: 15px;
+  font-size: 120%;
 }
 
 .logos {
-  width: 15px;
+  width: 25px;
   height: auto;
 }
 
 .logo-header {
-  width: 100px;
-  height: 30px;
+  width: 30%;
+  height: auto;
 }
 
 #logo-list {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: baseline;
   list-style-type: none;
-  padding: 0;
+  font-size: 150%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 li {
-  float: left;
+display: flex;
+  width: 100%;
   align-items: center;
-  margin-left: 10px;
   justify-content: center;
   text-align: center;
 }
 
 li img {
-  padding-right: 5px;
+  padding-right: 5%;
   align-items: center;
 }
 
 #submitbutton {
   background-color: rgba(41, 117, 240, 0.787);
   width: 90%;
-  height: 40px;
-  margin-top: 10px;
+  align-self: center;
+  height: 10%;
+  margin-top: 1%;
   border-radius: 5px;
+  font-size: 120%;
+  color: white;
 }
 
 .label {
-  margin-top: 2vh;
+  margin-top: 0.5%;
   display: flex;
   justify-items: left;
   width: 90%;
@@ -138,7 +157,7 @@ li img {
   display: flex;
   justify-items: left;
   width: 90%;
-  height: 30px;
+  height: 50%;
   border-radius: 5px;
   margin-left: 5%;
   box-shadow: 0 0;
@@ -147,14 +166,25 @@ li img {
 
 #formfooter {
   font-style: italic;
-  font-size: 12px;
-  padding-top: 3px;
+  font-size: 80%;
+  padding-top: 3%;
+  padding-bottom: 4%;
   color: grey;
 }
 
 #captchaform {
-  font-size: 10px;
-  padding-bottom: 0;
+  font-size: 100%;
+  display: flex;
+  max-height: 100%;
+  margin-top: 3%;
+  justify-content: center;
+  color: grey;
+}
+
+h2 {
+  font-size: 200%;
+  padding: 4%;
+  margin-top: 3%;
 }
 
 a {
