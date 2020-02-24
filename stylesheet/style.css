@@ -20,18 +20,18 @@
     'bl1 bl1 bfm bl2 bl2'
     'ftr ftr ftr ftr ftr';
 
-  grid-template-columns: 1fr 1fr 1.77777fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1.8fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 2.7fr 2.7fr 2.7fr 1fr 1fr;
 }
 .navbar {
   display: inline-flex;
   width: 100%;
-  /* padding-top: 1%; */
   grid-area: nav;
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: flex-end;
   align-content: flex-end;
+  margin-bottom: 3%;
 }
 
 .header {
@@ -42,7 +42,6 @@
 }
 
 .form {
-  /* overflow-y: auto; */
   background-color: white;
   max-height: 100%;
   grid-area: frm;
@@ -101,7 +100,7 @@
 }
 
 .logos {
-  width: 25px;
+  width: 1.5rem;
   height: auto;
 }
 
@@ -122,7 +121,7 @@
 }
 
 li {
-display: flex;
+  display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
